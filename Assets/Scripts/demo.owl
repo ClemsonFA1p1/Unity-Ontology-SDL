@@ -1,0 +1,307 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#"
+     xml:base="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#contains -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#contains">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#environment"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#obstacle"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#has_1_ob -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#has_1_ob">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#obstacle_difference"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#obstacle"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#has_2_ob -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#has_2_ob">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#obstacle_difference"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#obstacle"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#has_type -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#has_type">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#obstacle"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#obstacle_type"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#has_config_x -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#has_config_x">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#environment"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#has_config_y -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#has_config_y">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#environment"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#has_config_z -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#has_config_z">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#environment"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#has_diff_value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#has_diff_value">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#obstacle_difference"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#has_radius -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#has_radius">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#has_width -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#has_width">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#robot"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#is_located_at_x -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#is_located_at_x">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#obstacle"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label xml:lang="en">is located at x</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#is_located_at_y -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#is_located_at_y">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#obstacle"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label xml:lang="en">is located at y</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#is_located_at_z -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#is_located_at_z">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#obstacle"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label xml:lang="en">is located at z</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topDataProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topDataProperty">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#obstacle_type"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#environment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#environment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#feature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#feature"/>
+    
+
+
+    <!-- http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#object -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#object"/>
+    
+
+
+    <!-- http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#obstacle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#obstacle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#obstacle_difference -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#obstacle_difference">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#value"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#obstacle_type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#obstacle_type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#feature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#robot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#robot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#value -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#value"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#Birch -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#Birch">
+        <rdf:type rdf:resource="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#obstacle_type"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#Bush -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#Bush">
+        <rdf:type rdf:resource="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#obstacle_type"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#Conifer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#Conifer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#obstacle_type"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#Fern -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#Fern">
+        <rdf:type rdf:resource="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#obstacle_type"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#Pine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#Pine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#obstacle_type"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#Rock -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#Rock">
+        <rdf:type rdf:resource="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#obstacle_type"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#Stone -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#Stone">
+        <rdf:type rdf:resource="http://www.semanticweb.org/spoyyam/ontologies/2023/2/untitled-ontology-17#obstacle_type"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+

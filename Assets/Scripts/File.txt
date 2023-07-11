@@ -1,0 +1,8 @@
+Birch1 is located at 3_3_3
+Bush1 is located at 4_4_4
+Conifer1 is located at 5_2_5
+Fern1 is located at 5_6_0
+Pine1 is located at 6_4_0
+Pine2 is located at 10_4_0
+Stone1 is located at 10_5_0
+Rock1 is located at 8_5_0
