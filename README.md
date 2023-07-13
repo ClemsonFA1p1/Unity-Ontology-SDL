@@ -5,6 +5,7 @@ Clone this repository
 ```bash
 git clone --recursive https://github.com/shailendranpoyyamozhi/Unity-Ontology-SDL.git
 ```
+`IMPORTANT` Many files are missed while pushing the unity files to github. If the file doesnt open in unity, I would recommend to download the unity file from this [google drive file](https://drive.google.com/drive/folders/19rzfCP89u-Lyg5wCfJ2ipFJI-J1qKtI3?usp=drive_link)
 
 ## Table of contents
 * [Pre-requistes](#Pre-requistes)
