@@ -10,6 +10,7 @@ This repository is an application created as part of the VIPR-GS FA 1.1 Task 6. 
 
 
 ### Pre-requistes
+This an demo text
 ### ROS setup
 ### Unity setup
 ### Model library
