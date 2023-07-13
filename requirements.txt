@@ -1,0 +1,4 @@
+numpy==1.24.2
+numpy==1.17.4
+Owlready2==0.40
+rdflib==6.2.0
