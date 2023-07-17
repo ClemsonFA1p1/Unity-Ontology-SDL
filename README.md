@@ -37,6 +37,9 @@ Unity Hub is an application used to run the Unity simulation software. It also h
 Inside Unity Hub, We have to choose an editor version to run the simulation. It usually recommends the version based on which file you open. For our repository, kindly install `2022.2.15f1` if it doesn't recommend it.
 
 ## ROS setup
+[Unity Robotics](https://github.com/Unity-Technologies/Unity-Robotics-Hub) package is created for connecting various robotics hardware inside unity. There are two subprocesses in Unity ROS integration. The links to the respective installations are mentioned in the below links, and a full installation video is also added to this [link](https://www.youtube.com/watch?v=pdMxLxolQuo&ab_channel=hrithikverma)
+* [Importing ROS packages in Unity](https://github.com/Unity-Technologies/Unity-Robotics-Hub/blob/main/tutorials/quick_setup.md)
+* [Creating a ROS package to communicating with unity](https://github.com/Unity-Technologies/ROS-TCP-Endpoint/tree/main) 
 ## Unity setup
 ## Model library
 ## Application process
